@@ -32,19 +32,17 @@ def decode_char(char)
 end
 
 def decode_word(word)
-  wordArray = word.split
-  returnWord = ''
-  (0...wordArray.length).each do |i|
-    returnWord += decode_char(wordArray[i])
+  word_array = word.split
+  return_word = ''
+  (0...word_array.length).each do |i|
+    return_word += decode_char(word_array[i])
   end
-  returnWord
+  return_word
 end
 
 def decode(phrase)
-  phraseArray = phrase.split('   ')
-  returnPhrase = ''
-
-  phraseArray.map { |w| decode_word(w) }.join(' ')
+  phrase_array = phrase.split('   ')
+  phrase_array.map { |w| decode_word(w) }.join(' ')
 end
 
 puts decode('-- -.--   -. .- -- .')
