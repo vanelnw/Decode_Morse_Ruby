@@ -40,6 +40,14 @@ def decode_word(word)
     returnWord
 end
 
+def decode(phrase)
+    phraseArray = phrase.split("   ")
+    returnPhrase = ""
+
+    returnPhrase = phraseArray.map{|w| decode_word(w)}.join(" ")
+
+    returnPhrase
+end
 
 puts decode("-- -.--   -. .- -- .")
 
