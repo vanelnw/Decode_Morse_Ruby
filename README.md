@@ -1,12 +1,4 @@
-# Decode_Morse_Ruby
-
-<a name="readme-top"></a>
-
-
-
-
-
-<!-- TABLE OF CONTENTS -->
+a name="readme-top"></a>
 
 # 📗 Table of Contents
 
@@ -30,136 +22,75 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 decode-morse-code <a name="about-project"></a>
 
-# 📖 -Decode_Morse_Ruby <a name="about-project"></a>
-
-** Decode_Morse_Ruby ** is an exercise about ruby syntax
+**decode-morse-code** is a command line tool for decoding morse code
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-The site was built with PSQL
-
 <details>
-<summary>Database</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- The table contains information about differant animals
-
-- **[key_feature_2]**
-With the queries you can filter the data
+- **Decode your morse code words**
+- **Decode your morse code sentences**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> not yet 
-
+Live Demo not yet available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-
-
-
-sudo apt-get install postgresql postgresql-contrib
-
-
+```sh
+ gem install ruby
+```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-
-
-
+```sh
   cd my-folder
-  git clone git@github.com:David63011/vet-clinic-database.git
-
-
-### Install
-
-Install this project with:
-
-
-  cd vet-clinic-database
-
-
-
-### Usage
-
-To run the project, execute the following command:
-
-
-not available
-
+  git clone git@github.com:IngDavidTM/decode-morse-code.git
+```
 
 ### Run tests
 
 To run tests, run the following command:
 
+```sh
+  rubocop .
+```
 
-
-not available
-
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
-> Vanel nwaba
-> David Underwood
-
-👤 **Author1**
+👤 **Vanel nwaba**
 
 - GitHub: [@githubhandle](https://github.com/vanelnw)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/va-nw)
 
-👤 **Author2**
+👤 ** David Underwood**
 
-- GitHub: [@githubhandle](https://github.com/david63011)
-- Twitter: [@twitterhandle](https://twitter.com/david630)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/david63011)
-
-
+- GitHub: [@IngDavidTM](https://github.com/david63011)
+- Twitter: [@David5TM](https://twitter.com/David630)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ing-davidun)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **More data of the animals**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -169,48 +100,20 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please leave a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank every maintainer of whose code this project depends on
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **Do i need internet**
-
-  - no
-
-- **Do I need Node**
-
-  - yes
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
